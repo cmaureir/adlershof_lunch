@@ -17,8 +17,8 @@ Adlershof.
 ## Working options
 
  * [Albert](http://www.albert-speisemanufaktur.de/speiseplan)
+ * [Esswirtschaft](http://www.esswirtschaft.de/wochenkarte/wochenkarte.html)
 
 ## Missing options
 
- * [Esswirtschaft](http://www.esswirtschaft.de/wochenkarte/wochenkarte.html)
  * [La Petite](http://www.bistro-lapetite.de/downloads/speisekarte.pdf)

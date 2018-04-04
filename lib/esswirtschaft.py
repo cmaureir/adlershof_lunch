@@ -18,6 +18,14 @@ def get_esswirtschaft(url, day):
                 next_tag = next_tag.nextSibling
                 tag_name = next_tag.name
                 if tag_name == "p":
-                    print(" *", next_tag.text.replace("*", ""))
-                elif tag_name == "br":
+                    tmp = next_tag.stripped_strings
+                    line = ""
+                    for i, a in enumerate(tmp):
+                        if (i == 2):
+                            line += "\n"
+                        line += "".join(a)
+                        line += " "
+                    line = line.replace("*", "")
+                    print(" *", line)
+                elif tag_name == "br" or tag_name == "h2":
                     break
